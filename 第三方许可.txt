@@ -1,0 +1,32 @@
+肥鱼助手 v36.93 内含的第三方组件与许可
+==============================================
+
+1) Google ML Kit 中文文字识别（bundled 版）
+   用途：本地 OCR 引擎 1（默认）
+   许可：Google ML Kit Terms of Service
+         https://developers.google.com/ml-kit/terms
+   说明：模型与 native 库随 APK 分发，设备上离线运行。
+
+2) PaddleOCR PP-OCRv3 中文模型（det / rec / ppocr_keys_v1.txt）
+   用途：本地 OCR 引擎 2 的检测与识别模型
+   许可：Apache License 2.0（PaddlePaddle / PaddleOCR）
+   来源：PaddleOCR 官方模型；ONNX 版本由 RapidAI / RapidOCR 转换并开源发布
+
+3) ONNX Runtime（onnxruntime-android 1.20.0）
+   用途：本地 OCR 引擎 2 的推理运行时
+   许可：MIT License（Microsoft）
+
+4) tess-two / Tesseract OCR
+   用途：本地 OCR 引擎 3（备份引擎）
+   许可：Apache License 2.0
+
+5) Mozilla Rhino 1.7.15
+   用途：App 内 JavaScript 自动化脚本
+   许可：MPL 2.0
+
+6) Pyodide
+   用途：App 内 Python 自动化脚本（运行时从 CDN 加载，不随 APK 分发）
+   许可：MPL 2.0
+
+以上组件均按其原许可条款分发，本项目未修改其源码。
+若你是某个组件的权利人并认为本分发有问题，欢迎联系仓库维护者。
